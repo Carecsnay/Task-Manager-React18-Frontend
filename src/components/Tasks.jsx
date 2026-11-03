@@ -40,11 +40,14 @@ const Tasks = () => {
     const { newStatus, message } = transition;
 
     try {
-      const response = await fetch(`http://localhost:8000/tasks/${taskId}`, {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ status: newStatus }),
-      });
+      const response = await fetch(
+        `{import.meta.env.VITE_APP_API_URL}/tasks/${taskId}`,
+        {
+          method: 'PATCH',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ status: newStatus }),
+        }
+      );
 
       if (!response.ok) {
         toast.error('Erro ao atualizar o status da tarefa.');
