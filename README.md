@@ -4,13 +4,13 @@ Aplicação web moderna desenvolvida em **React 18** e **Vite** para gerenciamen
 
 ## 🚀 Tecnologias e Ferramentas
 
-* **Core:** React 18, Vite, JavaScript (ESM)
-* **Estilização:** Tailwind CSS, Tailwind Merge, Tailwind Variants
-* **Gerenciamento de Estado / Dados:** TanStack React Query, Axios
-* **Formulários e Validação:** React Hook Form
-* **Roteamento:** React Router DOM
-* **Feedback Visual:** Sonner (Toasts)
-* **Qualidade de Código & Git Hooks:** ESLint, Prettier, Husky, Lint-Staged, Git Commit Msg Linter
+- **Core:** React 18, Vite, JavaScript (ESM)
+- **Estilização:** Tailwind CSS, Tailwind Merge, Tailwind Variants
+- **Gerenciamento de Estado / Dados:** TanStack React Query, Axios
+- **Formulários e Validação:** React Hook Form
+- **Roteamento:** React Router DOM
+- **Feedback Visual:** Sonner (Toasts)
+- **Qualidade de Código & Git Hooks:** ESLint, Prettier, Husky, Lint-Staged, Git Commit Msg Linter
 
 ---
 
@@ -18,10 +18,10 @@ Aplicação web moderna desenvolvida em **React 18** e **Vite** para gerenciamen
 
 O backend desta aplicação foi desmembrado em um repositório dedicado e está rodando em produção na Vercel:
 
-* **URL Base da API:** `https://task-manager-r18-backend.vercel.app/`
-* **Endpoints Principais:**
-  * `GET /api/tasks` — Listagem de tarefas
-  * `GET /api/quotes` — Listagem de frases motivacionais
+- **URL Base da API:** `https://task-manager-r18-backend.vercel.app/`
+- **Endpoints Principais:**
+  - `GET /api/tasks` — Listagem de tarefas
+  - `GET /api/quotes` — Listagem de frases motivacionais
 
 ---
 
@@ -124,3 +124,4 @@ FSC-TASK-MANAGER/
 ├── README.md
 ├── tailwind.config.js
 └── vite.config.js
+```
