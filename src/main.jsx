@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import './index.css';
+import HomePage from './pages/Home.jsx';
 import TaskDetailsPage from './pages/TaskDetails.jsx';
 import TasksPage from './pages/Tasks.jsx';
-import HomePage from './pages/home.jsx';
 
 const queryClient = new QueryClient();
 
